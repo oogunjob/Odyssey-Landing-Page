@@ -13,7 +13,7 @@ const templateConfig: TemplateConfig = {
   // Forces theme to be chosen above, no matter what user prefers
   forceTheme: false,
   // Shows switch to toggle between dark and light modes
-  showThemeSwitch: true,
+  showThemeSwitch: false,
   appStoreLink: "https://apps.apple.com/us/app/google/id284815942",
   googlePlayLink:
     "https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox",
