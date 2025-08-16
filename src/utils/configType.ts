@@ -46,6 +46,7 @@ export type TemplateConfig = {
             facebook?: string | undefined;
             instagram?: string | undefined;
             twitter?: string | undefined;
+            github?: string | undefined;
         } | undefined;
     };
     topNavbar: {

@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { ConfigContext } from "../../utils/configContext";
 import InstagramLogo from "./svgs/instagram";
+import GitHubLogo from "./svgs/github";
 import FacebookLogo from "./svgs/facebook";
 import TwitterLogo from "./svgs/twitter";
 import { motion } from "framer-motion";
@@ -11,8 +12,17 @@ function Footer() {
   } = useContext(ConfigContext)!;
 
   return (
-    <footer className="relative bg-neutral text-neutral-content px-4 pt-0 pb-12">
-      <div className="absolute rounded-t-[50%] -top-12 left-0 bg-neutral w-full h-12" />
+    <footer className="relative text-white px-4 pt-0 pb-12">
+      <div 
+        className="absolute inset-0 bg-gradient-to-br from-blue-900 via-blue-600 to-orange-500 opacity-95 -z-20"
+        style={{
+          background: 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 70%, #F7931A 100%)'
+        }}
+      />
+      <div className="absolute rounded-t-[50%] -top-12 left-0 bg-gradient-to-br from-blue-900 via-blue-600 to-orange-500 w-full h-12" 
+           style={{
+             background: 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 70%, #F7931A 100%)'
+           }} />
       <motion.div
         initial="hidden"
         whileInView="visible"
@@ -28,7 +38,7 @@ function Footer() {
                 visible: { opacity: 1, x: 0 },
               }}
               transition={{ delay: index * 0.25 }}
-              className="text-xl font-bold block uppercase whitespace-nowrap link no-underline text-primary hover:text-primary/50 md:text-4xl"
+              className="text-xl font-bold block uppercase whitespace-nowrap link no-underline text-white hover:text-white/70 md:text-4xl"
               href={href}
             >
               {title}
@@ -36,35 +46,35 @@ function Footer() {
           ))}
         </nav>
         <aside className="flex flex-col items-center justify-between mt-4 w-full overflow-hidden md:flex-row lg:overflow-visible">
-          <div className="flex items-center gap-3 w-full text-primary">
-            {socials?.facebook && (
+          <div className="flex items-center gap-3 w-full text-white">
+            {socials?.github && (
               <motion.a
                 variants={{
                   hidden: { opacity: 0, x: "-100%" },
                   visible: { opacity: 1, x: 0 },
                 }}
                 transition={{ delay: 0.25 }}
-                className="w-8 h-8 hover:text-primary/50"
+                className="w-8 h-8 hover:text-white/70"
                 target="_blank"
-                href={socials.facebook}
+                href={socials.github}
               >
-                <FacebookLogo />
+                <GitHubLogo />
               </motion.a>
             )}
-            {socials?.instagram && (
+            {/* {socials?.instagram && (
               <motion.a
                 variants={{
                   hidden: { opacity: 0, x: "-100%" },
                   visible: { opacity: 1, x: 0 },
                 }}
                 transition={{ delay: 0.5 }}
-                className="w-8 h-8 hover:text-primary/50"
+                className="w-8 h-8 hover:text-white/70"
                 target="_blank"
                 href={socials.instagram}
               >
                 <InstagramLogo />
               </motion.a>
-            )}
+            )} */}
             {socials?.twitter && (
               <motion.a
                 variants={{
@@ -72,7 +82,7 @@ function Footer() {
                   visible: { opacity: 1, x: 0 },
                 }}
                 transition={{ delay: 0.75 }}
-                className="w-8 h-8 hover:text-primary/50"
+                className="w-8 h-8 hover:text-white/70"
                 target="_blank"
                 href={socials.twitter}
               >
@@ -88,7 +98,7 @@ function Footer() {
                   visible: { opacity: 1, scale: 1 },
                 }}
                 transition={{ delay: 0.25 }}
-                className="font-bold text-primary hover:text-primary/50 lg:whitespace-nowrap"
+                className="font-bold text-white hover:text-white/70 lg:whitespace-nowrap"
                 href="/terms-and-conditions"
               >
                 Terms & Conditions
@@ -101,7 +111,7 @@ function Footer() {
                   visible: { opacity: 1, scale: 1 },
                 }}
                 transition={{ delay: 0.5 }}
-                className="font-bold text-primary hover:text-primary/50 lg:whitespace-nowrap"
+                className="font-bold text-white hover:text-white/70 lg:whitespace-nowrap"
                 href="/privacy-policy"
               >
                 Privacy Policy
@@ -114,7 +124,7 @@ function Footer() {
                   visible: { opacity: 1, scale: 1 },
                 }}
                 transition={{ delay: 0.75 }}
-                className="font-bold text-primary hover:text-primary/50 lg:whitespace-nowrap"
+                className="font-bold text-white hover:text-white/70 lg:whitespace-nowrap"
                 href="/cookies-policy"
               >
                 Cookies Policy
@@ -127,7 +137,7 @@ function Footer() {
               visible: { opacity: 1, scale: 1 },
             }}
             transition={{ delay: 1 }}
-            className="mt-0.5 md:ml-4 md:whitespace-nowrap"
+            className="mt-0.5 md:ml-4 md:whitespace-nowrap text-gray-300"
           >
             All rights reserved © {new Date().getFullYear()}
           </motion.p>

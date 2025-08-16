@@ -217,7 +217,7 @@ function Header() {
                 }}
               >
                 <p className="text-sm text-white font-medium text-center m-0">
-                  🧭 <strong>Ready to set sail?</strong> Join the crew and master Bitcoin basics! 💰
+                  Learn Bitcoin - the greatest money ever created. Download now! 💰
                 </p>
               </motion.div>
             </div>

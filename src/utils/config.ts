@@ -1,14 +1,14 @@
 import type { TemplateConfig } from "./configType";
 
 const templateConfig: TemplateConfig = {
-  name: "Odyssey: Your Bitcoin Journey",
+  name: "Odyssey",
   seo: {
     title: "Odyssey: Your Bitcoin Journey",
     description: "Your Bitcoin Journey",
   },
   // Draws grid behind main container
   backgroundGrid: false,
-  logo: "/logo.svg",
+  logo: "/logo.png",
   theme: "corporate",
   // Forces theme to be chosen above, no matter what user prefers
   forceTheme: false,
@@ -26,12 +26,13 @@ const templateConfig: TemplateConfig = {
     socials: {
       instagram: "https://instagram.com/google",
       facebook: "https://facebook.com/google",
-      twitter: "https://x.com/google",
+      twitter: "https://x.com/tosinxogunjobi",
+      github: "https://github.com/oogunjob/Odyssey-Resources"
     },
     links: [
       { href: "/#features", title: "Features" },
-      { href: "/#how-it-works", title: "How it works" },
-      { href: "/#pricing", title: "Pricing" },
+      { href: "/#how-it-works", title: "How It Works" },
+      // { href: "/#pricing", title: "Pricing" },
       { href: "/#faq", title: "FAQ" },
     ],
   },
@@ -42,8 +43,8 @@ const templateConfig: TemplateConfig = {
     hideGooglePlay: false,
     links: [
       { href: "/#features", title: "Features" },
-      { href: "/#how-it-works", title: "How it works" },
-      { href: "/#pricing", title: "Pricing" },
+      { href: "/#how-it-works", title: "How It Works" },
+      // { href: "/#pricing", title: "Pricing" },
       { href: "/#faq", title: "FAQ" },
     ],
   },
@@ -106,7 +107,7 @@ const templateConfig: TemplateConfig = {
     },
     howItWorks: {
       id: "how-it-works",
-      title: "How it works",
+      title: "How It Works",
       subtitle:
         "Explore our comprehensive step-by-step guide to understand how our process ensures seamless and effective results",
       steps: [
@@ -179,30 +180,30 @@ const templateConfig: TemplateConfig = {
       title: "Frequently Asked Questions",
       qa: [
         {
-          question: "How can I create an account on your website?",
+          question: "Can I buy Bitcoin on Odyssey?",
           answer:
-            "To create an account, click on the 'Sign Up' button located at the top right corner of our homepage. Fill in the required information, including your name, email address, and password. Once you submit the form, you will receive a confirmation email. Click the link in the email to verify your account, and you're all set!",
+            "No, the app does not support direct Bitcoin purchases. However, we provide a curated list of trusted resources and platforms within the app where you can safely buy Bitcoin, along with guides to help you get started.",
         },
         {
-          question: "What payment methods do you accept?",
+          question: " Is the app suitable for beginners with no Bitcoin experience?",
           answer:
-            "We accept a variety of payment methods to ensure convenience for our customers. These include major credit cards (Visa, MasterCard, American Express), PayPal, Apple Pay, and Google Pay. For more details, visit our Payments page.",
+            "Absolutely! The app is designed specifically for beginners, offering easy-to-understand tutorials, quizzes, and a Bitcoin history section to help you learn about Bitcoin at your own pace. Our goal is to bridge the knowledge gap for new users.",
         },
         {
-          question: "How can I track my order?",
+          question: "How accurate is the Bitcoin price tracker in the app?",
           answer:
-            "Once your order is shipped, you will receive an email with a tracking number. You can use this tracking number on our website under the 'Track Order' section to see the current status and estimated delivery date of your package.",
+            "The price tracker provides real-time Bitcoin prices sourced from CoinGecko. Updates are frequent to ensure accuracy, though slight delays may occur due to network conditions. Always verify prices before making financial decisions.",
         },
         {
-          question: "What is your return policy?",
+          question: "Are there any costs associated with using the app?",
           answer:
-            "We offer a 30-day return policy for unused and unopened items. If you are not satisfied with your purchase, please contact our customer support team to initiate a return. Refunds will be processed within 7-10 business days after we receive the returned item.",
+            "The app is free to download and use, with core features like the price tracker, tutorials, and quests available at no cost. We may introduce optional premium features in the future, but these will be clearly outlined to avoid any surprises.",
         },
-        {
-          question: "How can I contact customer support?",
-          answer:
-            "You can contact our customer support team through the 'Contact Us' page on our website. We are available via email, phone, and live chat. Our support hours are Monday to Friday, 9 AM to 5 PM.",
-        },
+        // {
+        //   question: "How can I contact customer support?",
+        //   answer:
+        //     "You can contact our customer support team through the 'Contact Us' page on our website. We are available via email, phone, and live chat. Our support hours are Monday to Friday, 9 AM to 5 PM.",
+        // },
       ],
     },
     header: {
@@ -214,45 +215,45 @@ const templateConfig: TemplateConfig = {
         "/screenshots/2.webp",
         "/screenshots/3.webp",
       ],
-      rewards: ["App of the year \n 1st", "Product of the day"],
+      rewards: ["App of the year", "Product of the day"],
       usersDescription: "100+ people already using the app",
       headlineMark: [0, 2],
     },
-    pricing: {
-      id: "pricing",
-      title: "Pricing",
-      subtitle: "Flexible costs to meet your budget",
-      actionText: "Download the app",
-      plans: [
-        {
-          title: "Basic Plan",
-          price: "$9.99/month",
-          rows: ["Access to basic features", "Email support", "1 GB storage"],
-        },
-        {
-          title: "Standard Plan",
-          price: "$19.99/month",
-          featured: true,
-          rows: [
-            "Access to all basic features",
-            "Priority email support",
-            "10 GB storage",
-            "Monthly webinars",
-          ],
-        },
-        {
-          title: "Premium Plan",
-          price: "$29.99/month",
-          rows: [
-            "Access to all features",
-            "24/7 support",
-            "100 GB storage",
-            "Weekly webinars",
-            "Exclusive content",
-          ],
-        },
-      ],
-    },
+    // pricing: {
+    //   id: "pricing",
+    //   title: "Pricing",
+    //   subtitle: "Flexible costs to meet your budget",
+    //   actionText: "Download the app",
+    //   plans: [
+    //     {
+    //       title: "Basic Plan",
+    //       price: "$9.99/month",
+    //       rows: ["Access to basic features", "Email support", "1 GB storage"],
+    //     },
+    //     {
+    //       title: "Standard Plan",
+    //       price: "$19.99/month",
+    //       featured: true,
+    //       rows: [
+    //         "Access to all basic features",
+    //         "Priority email support",
+    //         "10 GB storage",
+    //         "Monthly webinars",
+    //       ],
+    //     },
+    //     {
+    //       title: "Premium Plan",
+    //       price: "$29.99/month",
+    //       rows: [
+    //         "Access to all features",
+    //         "24/7 support",
+    //         "100 GB storage",
+    //         "Weekly webinars",
+    //         "Exclusive content",
+    //       ],
+    //     },
+    //   ],
+    // },
   },
   privacyPolicy: {
     seo: {
