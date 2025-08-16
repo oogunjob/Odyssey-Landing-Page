@@ -50,9 +50,9 @@ const templateConfig: TemplateConfig = {
   },
   appBanner: {
     id: "app-banner",
-    title: "Download Our Mobile App Today!",
+    title: "Download Odyssey Today!",
     subtitle:
-      "Unlock the full potential of our services with seamless access at your fingertips. Stay connected, informed, and in control wherever you are.",
+      "Embark On Your Bitcoin Journey Now! Discover, Learn, Track Real-Time Prices, and Plan Your Investments with Our Beginner-Friendly Mobile App!",
     screenshots: [
       "/screenshots/1.webp",
       "/screenshots/2.webp",

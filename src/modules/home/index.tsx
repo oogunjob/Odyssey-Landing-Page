@@ -25,7 +25,7 @@ function Home({ config }: Props) {
         <Features />
         <HowItWorks />
         {/* <Pricing /> */}
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Faq />
         <AppBanner />
         <Footer />
