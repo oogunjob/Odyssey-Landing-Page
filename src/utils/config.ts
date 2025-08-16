@@ -206,9 +206,9 @@ const templateConfig: TemplateConfig = {
       ],
     },
     header: {
-      headline: "Your Ultimate App for Every Need",
+      headline: "Set Sail on Your Bitcoin Journey",
       subtitle:
-        "Streamline your tasks, boost your productivity, and accomplish more every day. Unlock a world of possibilities with our cutting-edge mobile application.",
+        "Chart your course through Bitcoin basics with interactive quests, real-world tools, and a supportive crew. No jargon, no pressure—just the knowledge you need to confidently navigate the Bitcoin seas right from your pocket.",
       screenshots: [
         "/screenshots/1.webp",
         "/screenshots/2.webp",
