@@ -265,7 +265,7 @@ const templateConfig: TemplateConfig = {
 
 ## Introduction
 
-Welcome to [Your App Name] (the "App"). [Your Company Name] ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and share your personal information when you use our App.
+Welcome to Odyseey: Your Bitcoin Journey (the "App"). Odyssey ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and share your personal information when you use our App.
 
 ## Information We Collect
 
@@ -298,7 +298,7 @@ We do not share your personal information with third parties except in the follo
 ## Your Rights and Choices
 
 - **Access and Correction:** You have the right to access and correct the personal information we hold about you.
-- **Data Deletion:** You may request that we delete your personal information by contacting us at [Your Contact Information].
+- **Data Deletion:** You may request that we delete your personal information by contacting us at ogunjobi.developer@gmail.com.
 - **Opt-Out:** You may opt out of receiving promotional communications from us by following the instructions in those communications.
 
 ## Security
@@ -309,15 +309,11 @@ We take reasonable measures to protect your personal information from unauthoriz
 
 We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Effective Date" above. Your continued use of the App after such changes signifies your acceptance of the revised Privacy Policy.
 
-## Contact Us
+## Contact Us  
+If you have any questions about these Terms and Conditions, You can contact us:  
 
-If you have any questions or concerns about this Privacy Policy, please contact us at:
-
-[Your Company Name]  
-[Your Contact Information]  
-[Email Address]  
-[Phone Number (optional)]
-
+- By email: **ogunjobi.developer@gmail.com**  
+- By visiting this page on our website: **https://www.odysseybtc.app**
 `,
   },
   cookiesPolicy: {
@@ -331,7 +327,7 @@ If you have any questions or concerns about this Privacy Policy, please contact 
 
 ## Introduction
 
-This Cookies Policy explains how [Your Company Name] ("we," "our," or "us") uses cookies and similar technologies to recognize you when you visit our app, [Your App Name] (the "App"). It explains what these technologies are and why we use them, as well as your rights to control their use.
+This Cookies Policy explains how Odyssey ("we," "our," or "us") uses cookies and similar technologies to recognize you when you visit our app, Odyssey: Your Bitcoin Journey (the "App"). It explains what these technologies are and why we use them, as well as your rights to control their use.
 
 ## What Are Cookies?
 
@@ -382,14 +378,11 @@ Please note that if you block or delete cookies, some features of the App may no
 
 We may update this Cookies Policy from time to time. We will notify you of any changes by posting the new Cookies Policy on this page and updating the "Effective Date" above. Your continued use of the App after such changes signifies your acceptance of the revised Cookies Policy.
 
-## Contact Us
+## Contact Us  
+If you have any questions about these Terms and Conditions, You can contact us:  
 
-If you have any questions or concerns about our use of cookies, please contact us at:
-
-[Your Company Name]  
-[Your Contact Information]  
-[Email Address]  
-[Phone Number (optional)]
+- By email: **ogunjobi.developer@gmail.com**  
+- By visiting this page on our website: **https://www.odysseybtc.app**
 `,
   },
   termsAndConditions: {

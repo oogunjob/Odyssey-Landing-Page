@@ -91,7 +91,7 @@ function Footer() {
                 className="font-bold text-primary hover:text-primary/50 lg:whitespace-nowrap"
                 href="/terms-and-conditions"
               >
-                Terms & conditions
+                Terms & Conditions
               </motion.a>
             )}
             {legalLinks.privacyPolicy && (
@@ -104,7 +104,7 @@ function Footer() {
                 className="font-bold text-primary hover:text-primary/50 lg:whitespace-nowrap"
                 href="/privacy-policy"
               >
-                Privacy policy
+                Privacy Policy
               </motion.a>
             )}
             {legalLinks.cookiesPolicy && (
@@ -117,7 +117,7 @@ function Footer() {
                 className="font-bold text-primary hover:text-primary/50 lg:whitespace-nowrap"
                 href="/cookies-policy"
               >
-                Cookies policy
+                Cookies Policy
               </motion.a>
             )}
           </div>
