@@ -21,7 +21,7 @@ function Header() {
     <section id={header.id} className="relative pb-8 md:pb-4">
       {/* Pirate-themed gradient background matching mobile app */}
       <div 
-        className="absolute inset-0 bg-gradient-to-br from-blue-900 via-blue-600 to-orange-500 opacity-95"
+        className="absolute inset-0 bg-gradient-to-br from-blue-900 via-blue-600 to-orange-500 opacity-95 -z-20"
         style={{
           background: 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 70%, #F7931A 100%)'
         }}
@@ -224,11 +224,11 @@ function Header() {
           </div>
 
           {/* Phone mockup with enhanced styling */}
-          <div className="min-h-[300vh] z-[-1]" ref={ref}>
+          <div className="min-h-[300vh] z-10" ref={ref}>
             <div className="flex justify-center sticky top-28 md:top-40">
               <SVGBlob
                 scrollYProgress={scrollYProgress}
-                className="-z-10 absolute hidden w-[800px] -top-20 -right-60 md:hidden xl:block opacity-30"
+                className="-z-30 absolute hidden w-[800px] -top-20 -right-60 md:hidden xl:block opacity-30"
               />
               <motion.div
                 initial={{ scale: 0.4, opacity: 0 }}
@@ -274,7 +274,7 @@ function Header() {
       
       {/* Enhanced wave with pirate colors */}
       {partners && (
-        <div className="absolute -bottom-1 left-0 right-0 -z-10">
+        <div className="absolute -bottom-1 left-0 right-0 -z-30">
           <SVGWave className="text-blue-900 opacity-80" />
         </div>
       )}
@@ -290,7 +290,7 @@ function Header() {
           repeat: Infinity,
           ease: "easeInOut"
         }}
-        className="absolute top-20 left-10 text-6xl opacity-20 hidden md:block"
+        className="absolute top-20 left-10 text-6xl opacity-20 hidden md:block -z-10"
       >
         ⚓
       </motion.div>
@@ -306,7 +306,7 @@ function Header() {
           ease: "easeInOut",
           delay: 1
         }}
-        className="absolute top-32 right-20 text-4xl opacity-20 hidden md:block"
+        className="absolute top-32 right-20 text-4xl opacity-20 hidden md:block -z-10"
       >
         🏴‍☠️
       </motion.div>
@@ -322,7 +322,7 @@ function Header() {
           ease: "easeInOut",
           delay: 2
         }}
-        className="absolute bottom-20 left-20 text-5xl opacity-15 hidden lg:block"
+        className="absolute bottom-20 left-20 text-5xl opacity-15 hidden lg:block -z-10"
       >
         🧭
       </motion.div>
