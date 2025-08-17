@@ -215,7 +215,7 @@ const templateConfig: TemplateConfig = {
         "/screenshots/2.webp",
         "/screenshots/3.webp",
       ],
-      rewards: ["App of the year", "Product of the day"],
+      rewards: ["#1 Bitcoin Education App", "Featured Financial App"],
       usersDescription: "100+ people already using the app",
       headlineMark: [0, 2],
     },
