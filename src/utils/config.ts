@@ -113,27 +113,27 @@ const templateConfig: TemplateConfig = {
         {
           title: "Protects Purchasing Power",
           subtitle: "Bitcoin's limited supply helps shield your money from inflation over time",
-          image: "/stock/01.webp"
+          image: "/stock/purchasepower.jpg"
         },
         {
           title: "Offers Financial Independence",
           subtitle: "Learn how Bitcoin lets you control your funds without banks or intermediaries",
-          image: "/stock/02.webp"
+          image: "/stock/financialindependence.jpg"
         },
         {
           title: "Enables Global Transactions",
           subtitle: "Understand how Bitcoin allows fast, low-cost payments worldwide",
-          image: "/stock/03.webp"
+          image: "/stock/worldmap.webp"
         },
         {
-          title: "Provides a Hedge Against Uncertainty",
-          subtitle: "Discover how Bitcoin can serve as a safeguard during economic instability",
-          image: "/stock/04.webp"
+          title: "World's Most Resilient Network",
+          subtitle: "Learn how Bitcoin's open-source, decentralized system stays reliable even during global disruptions and attacks",
+          image: "/stock/resilientnetwork.jpg"
         },
         {
           title: "Opens Future Opportunities",
           subtitle: "Learn about Bitcoin's role in the growing digital economy and beyond",
-          image: "/stock/05.webp"
+          image: "/stock/bitcoinhorizon.jpg"
         }
       ]
     },
