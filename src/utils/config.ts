@@ -11,7 +11,7 @@ const templateConfig: TemplateConfig = {
   logo: "/logo.png",
   theme: "corporate",
   // Forces theme to be chosen above, no matter what user prefers
-  forceTheme: false,
+  forceTheme: true,
   // Shows switch to toggle between dark and light modes
   showThemeSwitch: false,
   appStoreLink: "https://apps.apple.com/us/app/google/id284815942",

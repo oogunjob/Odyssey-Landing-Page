@@ -89,7 +89,7 @@ function WhyOdyssey() {
               }}
               className="mb-8 flex flex-col text-center justify-center prose flex-1"
             >
-              <div className="pb-0 font-sketch text-8xl text-primary">
+              <div className="pb-0 font-sketch text-8xl text-grey">
                 {index < 10 && 0}
                 {index + 1}
               </div>

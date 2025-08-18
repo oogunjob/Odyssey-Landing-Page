@@ -35,18 +35,13 @@ const { backgroundGrid, seo, logo, theme, forceTheme } =
     <meta property="twitter:description" content={seo.description} />
     <meta property="twitter:image" content={new URL(logo, Astro.url)} />
 
-    <script is:inline define:vars={{ forceTheme }}>
-      function getPreferredColorScheme() {
-        if (!window.matchMedia) {
-          return;
-        }
-        if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-          return "dark";
-        }
-      }
-      const theme = localStorage.getItem("theme") ?? getPreferredColorScheme();
-      if (theme === "dark" && !forceTheme)
+    <script is:inline define:vars={{ forceTheme, theme }}>
+      // Force the theme to always be the configured theme
+      if (forceTheme) {
         document.documentElement.setAttribute("data-theme", theme);
+        // Clear any stored theme preference to prevent future overrides
+        localStorage.removeItem("theme");
+      }
     </script>
   </head>
   <body class="relative">
