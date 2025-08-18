@@ -101,7 +101,7 @@ export type TemplateConfig = {
                 answer: string;
             }[];
         } | undefined;
-        howItWorks?: {
+        whyOdyssey?: {
             id?: string | undefined;
             title: string;
             subtitle?: string | undefined;

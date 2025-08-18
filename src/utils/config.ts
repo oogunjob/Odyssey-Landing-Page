@@ -31,7 +31,7 @@ const templateConfig: TemplateConfig = {
     },
     links: [
       { href: "/#features", title: "Features" },
-      { href: "/#how-it-works", title: "How It Works" },
+      { href: "/#why-odyssey", title: "Why Bitcoin?" },
       // { href: "/#pricing", title: "Pricing" },
       { href: "/#faq", title: "FAQ" },
     ],
@@ -43,7 +43,7 @@ const templateConfig: TemplateConfig = {
     hideGooglePlay: false,
     links: [
       { href: "/#features", title: "Features" },
-      { href: "/#how-it-works", title: "How It Works" },
+      { href: "/#why-odyssey", title: "Why Bitcoin?" },
       // { href: "/#pricing", title: "Pricing" },
       { href: "/#faq", title: "FAQ" },
     ],
@@ -105,75 +105,64 @@ const templateConfig: TemplateConfig = {
         "/misc/companies/tumblr.svg",
       ],
     },
-    howItWorks: {
-      id: "how-it-works",
-      title: "How It Works",
-      subtitle:
-        "Explore our comprehensive step-by-step guide to understand how our process ensures seamless and effective results",
+    whyOdyssey: {
+      id: "why-odyssey",
+      title: "Why Learn About Bitcoin?",
+      subtitle: "Explore the top reasons to learn about Bitcoin and its benefits and how Odyssey can help you",
       steps: [
         {
-          title: "Install the App",
-          subtitle:
-            "Download and install the app on your device to get started quickly and easily.",
-          image: "/stock/01.webp",
+          title: "Protects Purchasing Power",
+          subtitle: "Bitcoin's limited supply helps shield your money from inflation over time",
+          image: "/stock/01.webp"
         },
         {
-          title: "Create an Account",
-          subtitle:
-            "Sign up by entering your personal details and verifying your email to create a new account in just a few minutes.",
-          image: "/stock/02.webp",
+          title: "Offers Financial Independence",
+          subtitle: "Learn how Bitcoin lets you control your funds without banks or intermediaries",
+          image: "/stock/02.webp"
         },
         {
-          title: "Set Up Your Profile",
-          subtitle:
-            "Complete your profile by adding necessary information and preferences to personalize your experience on the platform.",
-          image: "/stock/03.webp",
+          title: "Enables Global Transactions",
+          subtitle: "Understand how Bitcoin allows fast, low-cost payments worldwide",
+          image: "/stock/03.webp"
         },
         {
-          title: "Explore Features",
-          subtitle:
-            "Navigate through the app to discover various features and tools designed to enhance your productivity and engagement.",
-          image: "/stock/04.webp",
+          title: "Provides a Hedge Against Uncertainty",
+          subtitle: "Discover how Bitcoin can serve as a safeguard during economic instability",
+          image: "/stock/04.webp"
         },
         {
-          title: "Connect with Others",
-          subtitle:
-            "Start connecting with friends, colleagues, and like-minded individuals to expand your network and collaborate efficiently.",
-          image: "/stock/05.webp",
-        },
-      ],
+          title: "Opens Future Opportunities",
+          subtitle: "Learn about Bitcoin's role in the growing digital economy and beyond",
+          image: "/stock/05.webp"
+        }
+      ]
     },
     features: {
       id: "features",
-      title: "Transform Your Daily Routine",
-      subtitle:
-        "Elevate your lifestyle with our innovative mobile app, designed for seamless living",
+      title: "Master Bitcoin with Ease",
+      subtitle: "Explore our app's tools to learn, track, and invest in Bitcoin confidently",
       cards: [
         {
-          title: "Seamless Integration",
-          subtitle:
-            "Connect effortlessly with all your devices, ensuring smooth and efficient workflows across different platforms and applications without any disruptions",
-          icon: "/3D/link-front-color.webp",
+          title: "Real-Time Price Tracking",
+          subtitle: "Monitor Bitcoin prices live with accurate, up-to-date data, helping you stay informed and make smart decisions",
+          icon: "/3D/dollar-front-color.webp"
         },
         {
-          title: "24/7 Customer Support",
-          subtitle:
-            "Get assistance whenever you need it with our dedicated customer support team, available around the clock to help resolve any issues you may encounter",
-          icon: "/3D/clock-front-color.webp",
+          title: "Bitcoin History Lessons",
+          subtitle: "Dive into Bitcoin's story with interactive timelines and insights, perfect for beginners learning the basics",
+          icon: "/3D/clock-front-color.webp"
         },
         {
-          title: "Intuitive Design",
-          subtitle:
-            "Navigate through our intuitive and easy-to-use interface designed to enhance user experience, making it accessible for users of all skill levels",
-          icon: "/3D/roll-brush-front-color.webp",
+          title: "AI Investment Planner",
+          subtitle: "Plan your investments easily with our AI-Powered Dollar-Cost Averaging tool, designed to simplify Bitcoin buying strategies (Coming Soon)",
+          icon: "/3D/calculator.png"
         },
         {
-          title: "Top-Notch Security",
-          subtitle:
-            "Protect your data with our top-notch security protocols, offering robust encryption and real-time monitoring to keep your information safe and secure",
-          icon: "/3D/sheild-front-color.webp",
-        },
-      ],
+          title: "Beginner Resources",
+          subtitle: "Learn Bitcoin step-by-step with clear, engaging tutorials and resources tailored for newcomers to build confidence",
+          icon: "/3D/sheild-front-color.webp"
+        }
+      ]
     },
     faq: {
       id: "faq",

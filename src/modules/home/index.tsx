@@ -7,7 +7,7 @@ import Header from "./_components/header";
 import Features from "./_components/features";
 import Partners from "./_components/partners";
 import Faq from "./_components/faq";
-import HowItWorks from "./_components/howItWorks";
+import WhyOdyssey from "./_components/whyOdyssey";
 // import Pricing from "./_components/pricing";
 import Testimonials from "./_components/testimonials";
 
@@ -21,9 +21,9 @@ function Home({ config }: Props) {
       <main>
         <Navbar />
         <Header />
-        <Partners />
+        {/* <Partners /> */}
         <Features />
-        <HowItWorks />
+        <WhyOdyssey />
         {/* <Pricing /> */}
         {/* <Testimonials /> */}
         <Faq />

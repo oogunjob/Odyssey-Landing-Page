@@ -7,35 +7,35 @@ import SwirlArrowBottomLeft from "./svg/swirlArrowBottomLeft";
 import SwirlArrowBottomRight from "./svg/swirlArrowBottomRight";
 import SwirlArrowBottom from "./svg/swirlArrowBottom";
 
-function HowItWorks() {
+function WhyOdyssey() {
   const {
-    home: { howItWorks },
+    home: { whyOdyssey },
   } = useContext(ConfigContext)!;
 
-  if (!howItWorks) return null;
+  if (!whyOdyssey) return null;
 
   return (
     <section
-      id={howItWorks.id}
+      id={whyOdyssey.id}
       className="overflow-hidden max-w-screen-lg mx-auto px-4 py-12"
     >
       <div className="mb-12 max-w-none flex flex-col items-center prose prose-lg text-center">
         <h1 className="mb-3">
-          <AnimatedText text={howItWorks.title} />
+          <AnimatedText text={whyOdyssey.title} />
         </h1>
-        {howItWorks.subtitle && (
+        {whyOdyssey.subtitle && (
           <motion.p
             initial={{ y: "100%", opacity: 0 }}
             whileInView={{ y: "0%", opacity: 0.7 }}
             viewport={{ once: true }}
             className="text-md max-w-lg"
           >
-            {howItWorks.subtitle}
+            {whyOdyssey.subtitle}
           </motion.p>
         )}
       </div>
       <div className="flex flex-col gap-52">
-        {howItWorks.steps.map((step, index) => (
+        {whyOdyssey.steps.map((step, index) => (
           <motion.div
             key={index}
             initial="hidden"
@@ -48,7 +48,7 @@ function HowItWorks() {
               }
             )}
           >
-            {index < howItWorks!.steps.length - 1 && (
+            {index < whyOdyssey!.steps.length - 1 && (
               <>
                 <motion.div
                   variants={{
@@ -116,4 +116,4 @@ function HowItWorks() {
   );
 }
 
-export default HowItWorks;
+export default WhyOdyssey;
