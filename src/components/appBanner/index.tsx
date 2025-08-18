@@ -16,7 +16,7 @@ function AppBanner() {
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.4 }}
-      className="relative max-w-screen-lg mx-auto px-4 -mb-6 z-10 md:-mb-10 lg:-mb-14"
+      className="relative max-w-screen-lg mx-auto px-4 mb-8 z-10 md:mb-12 lg:mb-16"
     >
       <motion.div
         variants={{
@@ -35,13 +35,20 @@ function AppBanner() {
           duration: 0.2,
         }}
       >
-        <div className="p-4 bg-primary text-primary-content rounded-t-[var(--rounded-box)] flex flex-col items-center md:flex-row">
+        <div 
+          className="p-4 text-white rounded-2xl flex flex-col items-center md:flex-row border-2"
+          style={{
+            backgroundColor: 'rgba(247, 147, 26, 0.2)',
+            borderColor: 'rgba(247, 147, 26, 0.5)',
+            backdropFilter: 'blur(10px)'
+          }}
+        >
           <div className="flex-1 flex flex-col items-center justify-center min-h-full">
             <motion.h2
               initial={{ opacity: 0, y: "-100%" }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
-              className="mt-0 mb-4 text-4xl md:text-6xl"
+              className="mt-0 mb-4 text-4xl md:text-6xl text-white"
             >
               {appBanner.title}
             </motion.h2>
@@ -49,7 +56,7 @@ function AppBanner() {
               initial={{ opacity: 0, y: "100%" }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5 }}
-              className="text-primary-content/70 whitespace-pre-wrap text-left m-0 mt-1 md:text-lg"
+              className="text-white/70 whitespace-pre-wrap text-left m-0 mt-1 md:text-lg"
             >
               {appBanner.subtitle}
             </motion.p>
@@ -122,7 +129,6 @@ function AppBanner() {
             ))}
           </motion.div>
         </div>
-        <Spill className="-translate-y-1"/>
       </motion.div>
     </motion.section>
   );
