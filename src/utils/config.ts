@@ -54,9 +54,9 @@ const templateConfig: TemplateConfig = {
     subtitle:
       "Embark On Your Bitcoin Journey Now! Discover, Learn, Track Real-Time Prices, and Plan Your Investments with Our Beginner-Friendly Mobile App!",
     screenshots: [
-      "/screenshots/1.webp",
-      "/screenshots/2.webp",
-      "/screenshots/3.webp",
+      "/screenshots/1.jpg",
+      "/screenshots/2.jpg",
+      "/screenshots/3.jpg",
     ],
   },
   home: {
@@ -200,9 +200,9 @@ const templateConfig: TemplateConfig = {
       subtitle:
         "Chart yer course through Bitcoin basics with interactive quests, real-world tools, and a supportive crew. No jargon, no pressure—just the knowledge you need to confidently navigate the Bitcoin seas right from your pocket!",
       screenshots: [
-        "/screenshots/1.webp",
-        "/screenshots/2.webp",
-        "/screenshots/3.webp",
+        "/screenshots/3.jpg",
+        "/screenshots/2.jpg",
+        "/screenshots/1.jpg",
       ],
       rewards: ["#1 Bitcoin Education App", "Featured Financial App"],
       usersDescription: "100+ people already using the app",
