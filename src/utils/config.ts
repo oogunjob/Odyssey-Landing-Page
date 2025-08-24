@@ -32,7 +32,6 @@ const templateConfig: TemplateConfig = {
     links: [
       { href: "/#features", title: "Features" },
       { href: "/#why-odyssey", title: "Why Bitcoin?" },
-      // { href: "/#pricing", title: "Pricing" },
       { href: "/#faq", title: "FAQ" },
     ],
   },
@@ -44,7 +43,6 @@ const templateConfig: TemplateConfig = {
     links: [
       { href: "/#features", title: "Features" },
       { href: "/#why-odyssey", title: "Why Bitcoin?" },
-      // { href: "/#pricing", title: "Pricing" },
       { href: "/#faq", title: "FAQ" },
     ],
   },
@@ -54,9 +52,9 @@ const templateConfig: TemplateConfig = {
     subtitle:
       "Embark On Your Bitcoin Journey Now! Discover, Learn, Track Real-Time Prices, and Plan Your Investments with Our Beginner-Friendly Mobile App!",
     screenshots: [
-      "/screenshots/1.webp",
-      "/screenshots/2.webp",
-      "/screenshots/3.webp",
+      "/screenshots/1.jpg",
+      "/screenshots/2.jpg",
+      "/screenshots/3.jpg",
     ],
   },
   home: {
@@ -188,11 +186,6 @@ const templateConfig: TemplateConfig = {
           answer:
             "The app is free to download and use, with core features like the price tracker, tutorials, and quests available at no cost. We may introduce optional premium features in the future, but these will be clearly outlined to avoid any surprises.",
         },
-        // {
-        //   question: "How can I contact customer support?",
-        //   answer:
-        //     "You can contact our customer support team through the 'Contact Us' page on our website. We are available via email, phone, and live chat. Our support hours are Monday to Friday, 9 AM to 5 PM.",
-        // },
       ],
     },
     header: {
@@ -200,49 +193,14 @@ const templateConfig: TemplateConfig = {
       subtitle:
         "Chart yer course through Bitcoin basics with interactive quests, real-world tools, and a supportive crew. No jargon, no pressure—just the knowledge you need to confidently navigate the Bitcoin seas right from your pocket!",
       screenshots: [
-        "/screenshots/1.webp",
-        "/screenshots/2.webp",
-        "/screenshots/3.webp",
+        "/screenshots/3.jpg",
+        "/screenshots/2.jpg",
+        "/screenshots/1.jpg",
       ],
       rewards: ["#1 Bitcoin Education App", "Featured Financial App"],
-      usersDescription: "100+ people already using the app",
+      usersDescription: "100+ sailors already using the app",
       headlineMark: [0, 2],
     },
-    // pricing: {
-    //   id: "pricing",
-    //   title: "Pricing",
-    //   subtitle: "Flexible costs to meet your budget",
-    //   actionText: "Download the app",
-    //   plans: [
-    //     {
-    //       title: "Basic Plan",
-    //       price: "$9.99/month",
-    //       rows: ["Access to basic features", "Email support", "1 GB storage"],
-    //     },
-    //     {
-    //       title: "Standard Plan",
-    //       price: "$19.99/month",
-    //       featured: true,
-    //       rows: [
-    //         "Access to all basic features",
-    //         "Priority email support",
-    //         "10 GB storage",
-    //         "Monthly webinars",
-    //       ],
-    //     },
-    //     {
-    //       title: "Premium Plan",
-    //       price: "$29.99/month",
-    //       rows: [
-    //         "Access to all features",
-    //         "24/7 support",
-    //         "100 GB storage",
-    //         "Weekly webinars",
-    //         "Exclusive content",
-    //       ],
-    //     },
-    //   ],
-    // },
   },
   privacyPolicy: {
     seo: {
