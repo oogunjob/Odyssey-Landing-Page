@@ -246,7 +246,7 @@ We do not share your personal information with third parties except in the follo
 ## Your Rights and Choices
 
 - **Access and Correction:** You have the right to access and correct the personal information we hold about you.
-- **Data Deletion:** You may request that we delete your personal information by contacting us at ogunjobi.developer@gmail.com.
+- **Data Deletion:** You may request that we delete your personal information by contacting us at odysseybtcapp@gmail.com.
 - **Opt-Out:** You may opt out of receiving promotional communications from us by following the instructions in those communications.
 
 ## Security
@@ -260,7 +260,7 @@ We may update this Privacy Policy from time to time. We will notify you of any c
 ## Contact Us  
 If you have any questions about these Terms and Conditions, You can contact us:  
 
-- By email: **ogunjobi.developer@gmail.com**  
+- By email: **odysseybtcapp@gmail.com**  
 - By visiting this page on our website: **https://www.odysseybtc.app**
 `,
   },
@@ -329,7 +329,7 @@ We may update this Cookies Policy from time to time. We will notify you of any c
 ## Contact Us  
 If you have any questions about these Terms and Conditions, You can contact us:  
 
-- By email: **ogunjobi.developer@gmail.com**  
+- By email: **odysseybtcapp@gmail.com**  
 - By visiting this page on our website: **https://www.odysseybtc.app**
 `,
   },
@@ -498,7 +498,7 @@ By continuing to access or use Our Service after those revisions become effectiv
 ## Contact Us  
 If you have any questions about these Terms and Conditions, You can contact us:  
 
-- By email: **ogunjobi.developer@gmail.com**  
+- By email: **odysseybtcapp@gmail.com**  
 - By visiting this page on our website: **https://www.odysseybtc.app**
 `,
   },
