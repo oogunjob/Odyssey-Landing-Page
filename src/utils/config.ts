@@ -14,7 +14,7 @@ const templateConfig: TemplateConfig = {
   forceTheme: true,
   // Shows switch to toggle between dark and light modes
   showThemeSwitch: false,
-  appStoreLink: "https://apps.apple.com/us/app/google/id284815942",
+  appStoreLink: "https://apps.apple.com/us/app/odyssey-your-bitcoin-journey/id6749882142",
   googlePlayLink:
     "https://play.google.com/store/apps/details?id=com.odyssey.odysseybtcapp&hl=en_US",
   footer: {
