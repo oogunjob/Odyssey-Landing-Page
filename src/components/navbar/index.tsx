@@ -113,14 +113,14 @@ function Navbar() {
         >
           {googlePlayLink && (
             <li className="mb-2">
-              <a href={googlePlayLink} target="_blank">
+              <a href={googlePlayLink} target="_blank" rel="noopener noreferrer">
                 <img className="h-12" src="/stores/google-play.svg" />
               </a>
             </li>
           )}
           {appStoreLink && (
             <li className="mb-2">
-              <a href={appStoreLink} target="_blank">
+              <a href={appStoreLink} target="_blank" rel="noopener noreferrer">
                 <img className="h-12" src="/stores/app-store.svg" />
               </a>
             </li>

@@ -68,7 +68,7 @@ function AppBanner() {
             >
               {googlePlayLink && (
                 <li className="m-0 p-0">
-                  <a href={googlePlayLink}>
+                  <a href={googlePlayLink} target="_blank" rel="noopener noreferrer">
                     <img
                       className="h-14"
                       alt="google play logo"
@@ -79,7 +79,7 @@ function AppBanner() {
               )}
               {appStoreLink && (
                 <li className="m-0 p-0">
-                  <a href={appStoreLink}>
+                  <a href={appStoreLink} target="_blank" rel="noopener noreferrer">
                     <img
                       className="h-14"
                       alt="app store logo"

@@ -16,7 +16,7 @@ const templateConfig: TemplateConfig = {
   showThemeSwitch: false,
   appStoreLink: "https://apps.apple.com/us/app/google/id284815942",
   googlePlayLink:
-    "https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox",
+    "https://play.google.com/store/apps/details?id=com.odyssey.odysseybtcapp&hl=en_US",
   footer: {
     legalLinks: {
       termsAndConditions: true,
