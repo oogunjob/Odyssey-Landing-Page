@@ -260,8 +260,7 @@ We may update this Privacy Policy from time to time. We will notify you of any c
 ## Contact Us  
 If you have any questions about these Terms and Conditions, You can contact us:  
 
-- By email: **odysseybtcapp@gmail.com**  
-- By visiting this page on our website: **https://www.odysseybtc.app**
+- By email: [**odysseybtcapp@gmail.com**](mailto:odysseybtcapp@gmail.com)  
 `,
   },
   cookiesPolicy: {
@@ -329,8 +328,7 @@ We may update this Cookies Policy from time to time. We will notify you of any c
 ## Contact Us  
 If you have any questions about these Terms and Conditions, You can contact us:  
 
-- By email: **odysseybtcapp@gmail.com**  
-- By visiting this page on our website: **https://www.odysseybtc.app**
+- By email: [**odysseybtcapp@gmail.com**](mailto:odysseybtcapp@gmail.com)  
 `,
   },
   termsAndConditions: {
@@ -498,8 +496,7 @@ By continuing to access or use Our Service after those revisions become effectiv
 ## Contact Us  
 If you have any questions about these Terms and Conditions, You can contact us:  
 
-- By email: **odysseybtcapp@gmail.com**  
-- By visiting this page on our website: **https://www.odysseybtc.app**
+- By email: [**odysseybtcapp@gmail.com**](mailto:odysseybtcapp@gmail.com)  
 `,
   },
 };
