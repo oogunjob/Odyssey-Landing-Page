@@ -5,10 +5,10 @@
   
   *Embark on an epic adventure to master Bitcoin and unlock the future of finance*
 
-[<img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+[<img src="public/stores/app-store.svg"
      alt="Download on App Store"
      height="80">](https://apps.apple.com/us/app/odyssey-your-bitcoin-journey/id6749882142)
-[<img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png"
+[<img src="public/stores/google-play.svg"
      alt="Get it on Google Play"
      height="80">](https://play.google.com/store/apps/details?id=com.odyssey.odysseybtcapp&hl=en_US)
 
