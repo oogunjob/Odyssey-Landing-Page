@@ -4,10 +4,14 @@
   # Odyssey: Your Bitcoin Journey Begins Here
   
   *Embark on an epic adventure to master Bitcoin and unlock the future of finance*
-  
-  [![Bitcoin](https://img.shields.io/badge/Bitcoin-F7931A?style=for-the-badge&logo=bitcoin&logoColor=white)](https://bitcoin.org/)
-  [![Mobile App](https://img.shields.io/badge/Mobile_App-000000?style=for-the-badge&logo=smartphone&logoColor=white)](#)
-  [![Education](https://img.shields.io/badge/Education-FF6B6B?style=for-the-badge&logo=graduation-cap&logoColor=white)](#)
+
+[<img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+     alt="Download on App Store"
+     height="80">](https://apps.apple.com/us/app/odyssey-your-bitcoin-journey/id6749882142)
+[<img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png"
+     alt="Get it on Google Play"
+     height="80">](https://play.google.com/store/apps/details?id=com.odyssey.odysseybtcapp&hl=en_US)
+
 </div>
 
 ## 🌟 What is Odyssey?
